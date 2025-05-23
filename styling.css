@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100dvh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background: hsl(214, 17%, 92%);
+}
+
+section{
+    display: grid;
+    grid-template-columns: 80% 20%;
+    padding: 10px;
+    gap: 1rem;
+}
+
+.main-first{
+    display: flex;
+    gap: 1rem;
+}
+
+.main-head{
+    background: hsl(263, 55%, 52%);
+    width: 40rem;
+    height: 18rem;
+    padding: 20px;
+    border-radius: 1rem;
+}
+
+.Daniel-image{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.main-head-1{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.main-head-1 h1{
+    color: hsl(214, 17%, 92%);
+    font-size: 13px;
+}
+
+.main-head-1 p{
+    font-size: 13px;
+    color: hsl(214, 17%, 92%);
+}
+
+.main-head-12 h1{
+    margin: 1rem;
+    color: white;
+    font-size: 22px;
+}
+
+.main-head-12 p{
+    color: hsl(214, 17%, 92%);
+    font-size: 13px;
+    margin: 1rem;
+}
+
+
+.main-head-2{
+    background: hsl(217, 19%, 35%);
+    padding: 20px;
+    width: 20rem;
+    height: 18rem;
+    border-radius: 1rem;
+}
+
+.main-head-21{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.image-jonathan{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.main-head-21 h1{
+    font-size: 13px;
+    color:hsl(214, 17%, 92%);
+}
+
+.main-head-21 p{
+    font-size: 13px;
+    color: hsl(214, 17%, 92%);
+}
+
+.main-head-22 h1{
+        color: white;
+        font-size: 22px;
+        margin: 1rem;
+}
+
+.main-head-22 p{
+    font-size: 13px;
+    color: hsl(214, 17%, 92%);
+    margin: 1rem;
+}
+
+.main{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+
+.main-second{
+    display: flex;
+    gap: 1rem;
+}
+
+.main-second-1{
+    background: white;
+    padding: 20px;
+    width: 20rem;
+    height: 18rem;
+    border-radius: 1rem;
+}
+
+.main-second-11{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.image-jeanette{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+}
+
+.main-second-11 h1{
+    font-size: 13px;
+    color: hsl(224, 10%, 45%);
+}
+
+.main-second-11 p{
+    font-size: 13px;
+    color: hsl(224, 10%, 45%);
+}
+
+.main-second-12 h1{
+    font-size: 22px;
+    width: 15rem;
+    color: hsl(219, 29%, 14%);
+    margin: 1rem;
+}
+
+.main-second-12 p{
+    font-size: 13px;
+    margin: 1rem;
+    width: 12rem;
+    color: hsl(224, 10%, 45%);
+}
+
+.main-second-2{
+    background: hsl(0, 0%, 7%);
+    width: 40rem;
+    height: 18rem;
+    padding: 20px;
+    border-radius: 1rem;
+
+}
+
+.main-second-21{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+.image-patrick{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid hsl(264, 82%, 80%);
+}
+
+.main-second-21 h1{
+    font-size: 13px;
+    color: hsl(260, 100%, 95%);
+}
+
+.main-second-21 p{
+    font-size: 13px;
+    color: hsl(260, 100%, 95%);
+}
+
+.main-second-22 h1{
+    font-size: 22px;
+    margin: 1rem;
+    color: hsl(260, 100%, 95%);
+}
+
+.main-second-22 p{
+    font-size: 13px;
+    margin: 1rem;
+    color: hsl(260, 100%, 95%);
+}
+
+
+aside{
+    background: white;
+    width: 15rem;
+    border-radius: 1rem;
+}
+
+.aside-1{
+    margin: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.image-kira{
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    
+}
+
+.aside-1 h1{
+    font-size: 13px;
+    color: hsl(224, 10%, 45%);
+}
+
+.aside-1 p{
+    font-size: 13px;
+    color: hsl(224, 10%, 45%);
+}
+
+.aside-12 h1{
+    font-size: 22px;
+    margin: 1rem;
+    color: hsl(219, 29%, 14%);
+}
+
+.aside-12 p{
+    font-size: 13px;
+    margin: 1rem;
+    line-height: 1.2rem;
+    color: hsl(224, 10%, 45%);
+}
+
+/*==============mobile screen===============*/
+@media screen and ( max-width: 375px) {
+                          section{
+                            display: flex;
+                            flex-direction: column;
+                          }
+                            
+
+                         .main-first{
+                            display: grid;
+                         }
+
+                         .main-head{
+                            width: 22rem;
+                            height: 30rem;
+                         }
+
+                         .main-head-2{
+                            width: 22rem;
+                         } 
+
+                         .main-second{
+                            display: grid;
+                         }
+                        
+                         .main-second-1{
+                            width: 22rem;
+                         }
+
+                         .main-second-2{
+                            width: 22rem;
+                            height: 30rem;
+                         }
+
+                         aside{
+                            width: 22rem;
+                         }
+                        }
